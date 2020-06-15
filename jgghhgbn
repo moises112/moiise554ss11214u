@@ -1,0 +1,171 @@
+
+<HTML>
+<title>ABARROTES MOISES</title>
+<body background="logo.png">
+
+    <script>
+		function SUMA(){
+			
+			var var1=document.getElementById('PRECIO1').value;
+			var var2=document.getElementById('CANTIDAD1').value;
+			var res=var1*var2;
+			document.getElementById('N1').value=res;
+
+			var var1=document.getElementById('PRECIO2').value;
+			var var2=document.getElementById('CANTIDAD2').value;
+			var res2=var1*var2;
+			document.getElementById('N2').value=res2;
+
+			var var1=document.getElementById('PRECIO3').value;
+			var var2=document.getElementById('CANTIDAD3').value;
+			var res3=var1*var2;
+			document.getElementById('N3').value=res3;
+
+			var var1=document.getElementById('PRECIO4').value;
+			var var2=document.getElementById('CANTIDAD4').value;
+			var res4=var1*var2;
+			document.getElementById('N4').value=res4;
+
+			var var1=document.getElementById('PRECIO5').value;
+			var var2=document.getElementById('CANTIDAD5').value;
+			var res5=var1*var2;
+			document.getElementById('N5').value=res5;
+
+
+			document.getElementById('N6').value=(res+res2+res3+res4+res5);
+            		
+		}
+	</script>
+<center> 
+<center>  
+<TABLE BORDER="1">
+<TR>
+	<TD ALIGN="CENTER"> ARTICULO </TD>
+	<TD ALIGN="CENTER"> PRECIO </TD>
+	<TD ALIGN="CENTER"> CANTIDAD </TD>
+	<TD ALIGN="CENTER"> TOTAL </TD>
+</TR>
+<TR>  
+	<TD> <INPUT TYPE="TEXT"> </TD>
+	<TD> <INPUT TYPE="TEXT" ID="PRECIO1"> </TD>
+	<TD> <INPUT TYPE="TEXT" ID="CANTIDAD1"> </TD>
+	<TD> <INPUT TYPE="TEXT" ID="N1"> </TD>
+</TR>
+<TR>
+	<TD> <INPUT TYPE="TEXT">  </TD>
+	<TD> <INPUT TYPE="TEXT" ID="PRECIO2"> </TD>
+	<TD> <INPUT TYPE="TEXT" ID="CANTIDAD2"> </TD>
+	<TD>  <INPUT TYPE="TEXT" ID="N2"> </TD>
+</TR>
+<TR>
+	<TD> <INPUT TYPE="TEXT"> </TD>
+	<TD> <INPUT TYPE="TEXT" ID="PRECIO3"> </TD>
+	<TD> <INPUT TYPE="TEXT" ID="CANTIDAD3"> </TD>
+	<TD>  <INPUT TYPE="TEXT" ID="N3"> </TD>
+</TR>
+<TR>
+	<TD> <INPUT TYPE="TEXT"> </TD>
+	<TD> <INPUT TYPE="TEXT" ID="PRECIO4"> </TD>
+	<TD> <INPUT TYPE="TEXT" ID="CANTIDAD4"> </TD>
+	<TD> <INPUT TYPE="TEXT" ID="N4"> </TD>
+</TR>
+<TR>
+	<TD> <INPUT TYPE="TEXT">  </TD>
+	<TD> <INPUT TYPE="TEXT" ID="PRECIO5"> </TD>
+	<TD> <INPUT TYPE="TEXT" ID="CANTIDAD5"> </TD>
+	<TD> <INPUT TYPE="TEXT" ID="N5"> </TD>
+</TR>
+<TR> 
+
+	<TD ALIGN="CENTER" COLSPAN=3> <INPUT TYPE="BUTTON" VALUE="TOTAL A PAGAR" onclick="SUMA()">
+	<TD><INPUT TYPE="TEXT" ID="N6"></TD>
+	
+</TR>
+        </table>
+     
+    <body>
+        <form id="miFormulario" name="miFormulario" method="pedidoproccesado.html" action="pedidoproccesado.html">
+           
+             <input type="submit" id="btnEnviar" name="btnEnviar" value="REALIZAR PEDIDO" />
+        </form>
+    </body>
+</html>
+envianos tu direccion a este numero para tomar encuenta tu pedido 351190743
+<li><A href="index.html">Pagina Principal
+</body>
+</html>
+
+
+
+
+
+
+<HTML>
+<title>ABARROTES MOISES</title>
+<body background="logo.png">
+
+
+<p>
+<IMG SRC="carrito.PNG", keigth:"100", width="200"><font size="10" face="Arial" color="BLACK">&nbsp; ABARROTES MOISES</fontr>
+<DL>
+<DT><center><br><b><font size="3" face="Arial">TU TIENDA FAVORITA AHORA EN LINEA Y A DOMICILIO</font></DT></B></br>
+<FONT SIZE="3" face="Arial">Somos una tienda con envios locales, enfocada para todas aquellas personas que no pueden o no tienen el tiempo de ir a la tienda tu ordenas tu pedido y nosotros te lo llevamos, por un pequeño costo por el envio.</font></DD></DL><DL><IMG SRC="descarga.jpg", keigth:"100", width="200" align="right">
+<DL>
+<DT><left><B><font size="3" face="Arial">HORARIO DE SERVICIO A DOMICILIO </font></DT></B></left>
+<DO><left><br><FONT SIZE="2">LUNES A DOMINGO DE 7:00AM/11:00PM  </left></br></DD></DL> 
+
+<DL>
+<DT><B><font size="4" face="Arial">AQUI ABAJO PUEDES CHECAR LOS PRODUCTOS EN EXISTENCIA Y LOS QUE PUEDES COMPRAR</font></DT></B>
+<ol>
+<li><A  href="productos.html">Productos
+<li><A href= "carritodecompras.html">Carrito de compras
+</ol>         
+<HTML> 
+
+
+
+<HTML>
+<title>PEDIDO PROCCESADO</title>
+<body background="logo.png">
+
+
+<p>
+<IMG SRC="carrito.PNG", keigth:"100", width="200"><font size="10" face="Arial" color="BLACK">&nbsp; ¡GRACIAS SU PEDIDO HA SIDO PROCCESADO!</fontr>
+
+<HTML>
+<title>Productos</title>
+<BODY background="logo.png">
+<p>
+<font size="20" face="bodoni" color="green">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<small><center size="6"  color="green">PRODUCTOS</small</center>
+
+<DT><p><img src="coca.jpg", keigth:"150", width="150" align="left"><br><font  size="5" face="BOBBER" color="BLUE" aling="left">&nbsp;COCA COLA 600ML $16</p></font></br>
+<DL>
+<DT><p><img src="galletas.png", keigth:"150", width="150" align="left"><br><br><font size="5" face="BOBBER" color="BLUE">&nbsp;GALLETAS EMPERADOR $10</p></font></br></br>
+<DL>
+<DT><p><img src="sabritas.jpg", keigth:"150", width="150" align="left"><br><br><font size="5" face="BOBBER" color="BLUE">&nbsp;SABRITAS $12</p></font></br></br>
+<DL>
+<DT><p><img src="rufles.jpg", keigth:"150", width="150" align="left"><br><font size="5" face="BOBBER" color="BLUE">&nbsp;RUFLES 13</p></font></br>
+<DL>
+<DT><p><img src="mazapan.jpg", keigth:"150", width="150" align="left"><br><font size="5" face="BOBBER" color="BLUE">&nbsp;MAZAPAN $5</p></font></br>
+<DL>
+<DT><p><img src="galletasoreo.jpg", keigth:"150", width="150" align="left"><br><font size="5" face="BOBBER" color="BLUE">&nbsp;GALLETAS OREO $13</p></font></br>
+<DL>
+<DT><p><img src="pe%C3%B1afiel.jpg", keigth:"150", width="150" align="left"><br><br><font size="5" face="BOBBER" color="BLUE">&nbsp;PEÑAFIEL 600ML $12</p></font></br></br>
+<DL>
+<DT><p><img src="chicles.jpg" keigth:"150", width="150" align="left"><br><br><font size="5" face="BOBBER" color="BLUE">&nbsp;CHICLES $1</p></font></br></br>
+<DL>
+<DT><p><img src="torillas.jpg", keigth:"150", width="150" align="left"><br><br><font size="5" face="BOBBER" color="BLUE">&nbsp;TORTILLAS DE ARINA 1K $20</p></font></br></br>
+<DL>
+<DT><p><img src="chiles.jpg", keigth:"150", width="150" align="left"><br><font size="5" face="BOBBER" color="BLUE">&nbsp;CHILES JALAPEÑOS LATA $13</p></font></br>
+<BR><center><font size="5" face="Arial" color="black">GRACIAS POR VISITAR NUESTRA PAGINA</center></font></DT></BR>
+<DO><center><br><FONT SIZE="4" color="BLACK">PUDES HACER TU PEDIDO EN EL SIGIENTE ENLACE.</br></center></DD></DL> 
+<DT>
+<B><left size="5" face="Arial" color="black">Menu</left></DT></B>
+<ol>
+<li><A href="index.html">Pagina Principal
+<li><A href="carritodecompras.html">carrito de compras
+</ol>               
+<HTML> 
+
+
